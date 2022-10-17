@@ -1,0 +1,33 @@
+img {
+    margin-top: -6%;
+    width: 16%;
+    margin-bottom: -5%;
+    min-width: 16%;
+    max-width: 16%;
+}
+
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    position: sticky;
+}
+
+.navbar-light .navbar-nav .nav-item
+{
+    color: #000000;
+    font-size: 18px;
+}
+
+.navbar-nav
+{
+    padding-left: 50%;
+}
+
+.navbar-nav a:hover 
+{
+    background-color: lightseagreen;
+    border-radius: 40px;
+}
+
