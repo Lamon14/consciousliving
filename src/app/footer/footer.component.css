@@ -1,0 +1,33 @@
+.footer
+{
+    background-color: rgb(10, 10, 10);
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    margin-top: 100%;
+    bottom: 0;
+}
+
+a
+{
+    color: goldenrod;
+}
+
+.row .col-lg-4
+{
+    display: flex;
+    padding: 2%;
+    margin-left: -20%;
+    justify-content: space-between;
+}
+
+.row .col-lg-2
+{
+    display: flex;
+    padding: 1%;
+    margin-left: 15%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+

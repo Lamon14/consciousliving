@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.responsive {
+    width: 100%;
+    height: auto; 
+}
+
+.content h1
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: -25%;
+    margin-bottom: -1%;
+    font-size: 5vw;
+    font-family: Palatino Linotype;
+}
+
+.content h2
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 1.80vw;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-family: Palatino Linotype;
+    /** 12vmin **/
+}
+
+.content h3
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 1.60vw;
+    margin-top: -2%;
+    font-weight: bold;
+    font-family: Palatino Linotype;
+}
+
+.content h4 
+{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 15%;
+}
+
+.content h5 
+{
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    justify-content: center;
+    font-family: Arial;
+}
+
+.content p {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    font-family: Arial;
+}
+
+.content
+{
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.erbjudande {
+    text-align: center;
+    margin-top: -2%;
+    margin-bottom: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 15px;
+    font-size: 17px;
+    /*font-size: 1.5vw;*/
+    padding: 1%;
+    background-color: rgb(249, 244, 244);
+    font-family: Georgia;
+}
+
+.erbjudande h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.erbjudande h2 {
+    font-size: 20px;
+}
+
+.dator {
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.dator .lindadator {
+    margin-left: 10%;
+    max-width: 100%;
+    height: auto;
+}
+
+.dator .quextext {
+    margin-right: 4%;
+    margin-left: 5%;
+    width: 45%; 
+    font-family: Arial; 
+}
+
+.lamin {
+    margin-top: -4%;
+    display: flex;
+    margin-bottom: 10%;
+    font-family: Arial;
+}
+
+.lamin .laminquex {
+    margin-left: -45%;
+    max-width: 100%;
+    height: auto;
+    padding-left: 1%;
+}
+
+.lamin .quex {
+    padding: 1%;
+    margin-left: 22%;
+    margin-right: 10%;
+    width: 100%;   
+}
+
+.upplagget .backgrme {
+    margin-top: -8%;
+    max-width: 100%;
+    height: auto;
+}
+
+.upplagget h1 {
+    margin-top: -30%;
+    margin-left: 5%;
+    font-size: 2vw;
+}
+
+.upplagget h2 {
+    margin-left: 5%;
+    font-size: 16px;
+}
+
+.upplagget p {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -2%;
+}
+
+.upplagget1 .backgrme1 {
+    max-width: 100%;
+    height: 20%;
+}
+
+.upplagget1 p {
+    margin-top: -25%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.sverige {
+    margin-bottom: 10%;
+    padding-left: 13.5%;
+    padding-right: 10%;
+}
+
+video {
+    width: 60%;
+    margin-bottom: 30%;   
+}
+
+.videos {
+    padding-left: 10%;
+    background-color: black;   
+}
+
+h3 {
+    font-size: 18px;;
+    color: white;
+}

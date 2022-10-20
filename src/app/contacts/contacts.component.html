@@ -1,0 +1,57 @@
+<html>
+  <body>
+    <section class="contact" style="background-image: url('../../assets/contactp.png') ;" alt="Nature">
+    <div style="text-align: center; font-family: Palatino Linotype">
+         <div class="logga1">
+            <img src="../../assets/3L.png" height="100" width="100">
+         </div>
+    <h1>Kontakt</h1>
+        <form onsubmit="sendEmail()" class="contact-form">
+            <div class="form-group">
+              <label for="exampleInputName"></label>
+              <input minlength="2" required type="name" class="form-control" id="exampleInputName" placeholder="Namn" required>
+              <label for="exampleInputEmail1"></label>
+              <input minlength="2" required type="email" class="form-control" id="exampleInputEmail1" placeholder="E-post" required>
+              <label for="exampleInputMobileNumber"></label>
+              <input minlength="2" required type="mobilenumber" class="form-control" id="exampleInputName" placeholder="Telefonnummer" required>
+              <label for="exampleInputSubject"></label>
+              <input minlength="2" required type="subject" class="form-control" id="exampleInputÄmne" placeholder="Ämne">
+            <div>
+        <div>   
+           Email is required
+        </div>
+        <div>
+           Email is invalid
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+        <label for="comment"></label>
+        <textarea name="" id="comment" cols="30" rows="10" class="form-control" placeholder="Meddelande"></textarea>
+    </div>
+      <button type="submit" ng-Click="sendEmail()">Skicka</button>
+  </form>
+</div>
+      <div id="status" class="error" style="text-align: center; margin-top: -8%;">Skickad</div>
+    </section>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+
+    <script>
+      function sendEmail() {
+        Email.send({
+            Host : "smtp.elasticemail.com",
+            Username : "username",
+            Password : "password",
+            To : 'them@website.com',
+            From : "you@isp.com",
+            Subject : "This is the subject",
+            Body : "And this is the body"
+        }).then(
+          message => alert(message)
+        )
+    }
+    </script>
+
+  </body>
+</html>
