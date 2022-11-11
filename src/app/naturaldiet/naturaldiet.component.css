@@ -8,6 +8,7 @@ h1 {
     margin-top: -40%;
     padding-left: 10%;
     color:black;
+    line-height: 0.8;
     font-size: 5vw;
     font-family: Palatino Linotype;
 }
@@ -34,7 +35,8 @@ h3 {
     width: 100%;    
 }
 
-.texta p {
+.content .texta p {
+    display: flex;
     margin-top: 19%;
     padding: 1%;
 }
@@ -48,12 +50,14 @@ h3 {
 }
 
 .text1 {
+    display: flex;
     margin-top: 0.5%;
     margin-right: 2%;
     padding-left: 0.5%;
 }
 
 .text3 h3 {
+    display: flex;
     font-size: 17px;
     font-weight: bold;
     margin-top: -2%;
@@ -65,11 +69,13 @@ h3 {
 }
 
 .text3 h4 {
+    display: flex;
     font-size: 14px;
     font-family: Palatino Linotype;
 }
 
 .text3 h5, h6 {
+    display: flex;
     font-size: 17px;
     margin-top: 2%;
     padding: 1%;
@@ -81,6 +87,7 @@ h3 {
 }
 
 .text3 h6 {
+    display: flex;
     font-size: 17px;
     margin-top: -5.80%;
     padding: 1%;
@@ -94,3 +101,55 @@ h3 {
     margin-bottom: 12%;
     font-family: Arial;
 }
+
+/*
+@media only screen and (max-width: 1800px) and (max-width: 2000px) and (max-width: 2500px) and (max-width: 3112px){
+    h1 {
+        width: 70%;
+        margin-bottom: 15%;
+        font-family: Palatino Linotype;
+    }
+    
+    h2 {
+        width: 70%;
+        margin-top: 8%;
+        line-height: 1;
+        margin-bottom: 10%;
+    }
+
+    .content .texta p {
+        margin-top: 8%;
+        padding: 1%;
+    }
+
+  }
+
+  @media only screen and (max-width: 3000px) and (max-width: 3112px){
+    h1 {
+        line-height: 1;
+        font-size: 5vw;
+    }
+
+    h2 {
+        margin-top: 2%;
+        font-size: 2vw;
+        line-height: 1;
+    }
+  }*/
+
+  @media only screen and (max-width: 2000px) and (max-width: 2500px) and (max-width: 2800px) and (max-width: 3000px) and (max-width: 3112px){
+    h1 {
+        line-height: 1;
+        font-size: 5vw;
+    }
+
+    h2 {
+        font-size: 1.5vw;
+        line-height: 1;
+    }
+
+    .content .texta p {
+        margin-top: 19%;
+        padding: 1%;
+    }
+  }

@@ -11,6 +11,8 @@ export class AppComponent implements OnInit {
 
   private router: Router;
 
+  baseUrl = '/home';
+
   constructor(router: Router) {
     this.router = router;
   }

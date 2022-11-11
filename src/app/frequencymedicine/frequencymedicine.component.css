@@ -14,25 +14,28 @@
 
 .content h1
 {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    margin-top: -25%;
-    margin-bottom: -1%;
     font-size: 5vw;
-    font-family: Palatino Linotype;
+    color: goldenrod;
+    margin-top: -30%;
+    margin-bottom: -1%;
+    font-weight: bold;
+    flex-direction: row;
+    font-family: Georgia;
 }
+
 
 .content h2
 {
     display: flex;
-    justify-content: center;
-    flex-direction: row;
-    font-size: 1.80vw;
-    margin-top: 3%;
+    color: goldenrod;
+    font-size: 30px;
+    margin-top: -18%;
     margin-bottom: 2%;
+    font-weight: bold;
+    flex-direction: row;
+    justify-content: center;
     font-family: Palatino Linotype;
-    /** 12vmin **/
+    /** 12vmin**/
 }
 
 .content h3
@@ -40,15 +43,17 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    font-size: 1.60vw;
-    margin-top: -2%;
+    font-size: 2vw;
+    margin-top: 2%;
     font-weight: bold;
+    color: goldenrod;
     font-family: Palatino Linotype;
 }
 
 .content h4 
 {
     display: flex;
+    color: black;
     justify-content: center;
     font-weight: bold;
     margin-top: 15%;
@@ -58,6 +63,7 @@
 {
     display: flex;
     font-size: 14px;
+    margin-top: -5%;
     font-weight: bold;
     justify-content: center;
     font-family: Arial;
@@ -76,6 +82,7 @@
     align-items: center;
     padding-left: 5%;
     padding-right: 5%;
+    font-family: Georgia;
 }
 
 .erbjudande {
@@ -86,14 +93,13 @@
     margin-right: 25%;
     border-radius: 15px;
     font-size: 17px;
-    /*font-size: 1.5vw;*/
     padding: 1%;
     background-color: rgb(249, 244, 244);
     font-family: Georgia;
 }
 
 .erbjudande h1 {
-    font-size: 25px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -101,96 +107,151 @@
     font-size: 20px;
 }
 
-.dator {
+.atom {
     display: flex;
+    flex-direction: row;
     margin-bottom: 10%;
+    justify-content: space-around;
 }
 
-.dator .lindadator {
-    margin-left: 10%;
-    max-width: 100%;
-    height: auto;
-}
-
-.dator .quextext {
-    margin-right: 4%;
+.atom1 {
+    width: 70%;
     margin-left: 5%;
-    width: 45%; 
-    font-family: Arial; 
+    margin-right: 3%;
+    padding: 2%;
+    margin-top: -3%;
+    font-family: Arial;
+    border-radius: 15px;
+    background-color: rgb(183, 209, 183);
+    justify-content: center;
+}
+
+.atom .atomquex {
+   padding: 5%;
+   width: 60%;
+   height: auto; 
+   margin-top: -5%;
+   margin-left: 3%;
+   border-radius: 15px;
+   background-color:rgb(249, 244, 244);
+}
+
+.lindadator {
+   padding: 5%;
+   height: auto;
+   width: 60%; 
+   margin-top: -6%;
+   margin-left: 20%;
+   border-radius: 15px;
+   background-color:rgb(249, 244, 244);
+}
+
+.linda .quextext {
+    padding: 2%;
+    width: 70%;
+    margin-top: -2%;
+    margin-left: -3%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+    border-radius: 15px;
+    background-color: rgb(183, 209, 183);
 }
 
 .lamin {
-    margin-top: -4%;
+    margin-top: -3%;
     display: flex;
     margin-bottom: 10%;
     font-family: Arial;
 }
 
 .lamin .laminquex {
-    margin-left: -45%;
+    padding: 5%;
+    margin-left: -27%;
     max-width: 100%;
     height: auto;
     padding-left: 1%;
+    border-radius: 15px;
+    background-color:rgb(249, 244, 244);
 }
 
 .lamin .quex {
     padding: 1%;
-    margin-left: 22%;
+    margin-left: 5%;
     margin-right: 10%;
-    width: 100%;   
+    width: 100%;
+    border-radius: 15px;
+    background-color: rgb(183, 209, 183);   
 }
 
-.upplagget .backgrme {
-    margin-top: -8%;
+.upplagget {
+    margin-top: 25%;
     max-width: 100%;
     height: auto;
+}
+
+.upplagget .upplagg {
+    background-color: black;
 }
 
 .upplagget h1 {
     margin-top: -30%;
     margin-left: 5%;
-    font-size: 2vw;
+    font-size: 20px;
 }
 
 .upplagget h2 {
+    display: flex;
     margin-left: 5%;
     font-size: 16px;
 }
 
 .upplagget p {
+    display: flex;
+    justify-content: row;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: -2%;
 }
 
-.upplagget1 .backgrme1 {
+.upplagget1 {
+    display: fixed;
+    justify-content: row;
+    margin-left: 5%;
+    margin-top: -2%;
     max-width: 100%;
-    height: 20%;
 }
 
 .upplagget1 p {
-    margin-top: -25%;
-    margin-left: 5%;
+    display: flex;
+    margin-top: 5%;
     margin-right: 5%;
 }
 
-.sverige {
-    margin-bottom: 10%;
-    padding-left: 13.5%;
-    padding-right: 10%;
+.sverige p {
+    display: flex;
+    justify-content: row;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
 }
 
 video {
+    margin-top: -5%;
     width: 60%;
     margin-bottom: 30%;   
 }
 
 .videos {
+    margin-top: -5%;
     padding-left: 10%;
-    background-color: black;   
+    background-color: black;
+    margin-bottom: 10%;   
 }
 
-h3 {
+h4 {
+    margin-top: 5%;
     font-size: 18px;;
     color: white;
+    margin-bottom: 10%;
 }
+

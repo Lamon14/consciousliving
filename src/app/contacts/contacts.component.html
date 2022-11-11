@@ -1,12 +1,16 @@
 <html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
   <body>
     <section class="contact" style="background-image: url('../../assets/contactp.png') ;" alt="Nature">
+      <div class="container">
     <div style="text-align: center; font-family: Palatino Linotype">
          <div class="logga1">
             <img src="../../assets/3L.png" height="100" width="100">
          </div>
     <h1>Kontakt</h1>
-        <form onsubmit="sendEmail()" class="contact-form">
+        <form class="contact-form">
             <div class="form-group">
               <label for="exampleInputName"></label>
               <input minlength="2" required type="name" class="form-control" id="exampleInputName" placeholder="Namn" required>
@@ -17,41 +21,34 @@
               <label for="exampleInputSubject"></label>
               <input minlength="2" required type="subject" class="form-control" id="exampleInputÄmne" placeholder="Ämne">
             <div>
-        <div>   
+       <!-- <div>   
            Email is required
         </div>
         <div>
            Email is invalid
-        </div>
+        </div>-->
       </div>
     </div>
     <div class="form-group">
         <label for="comment"></label>
         <textarea name="" id="comment" cols="30" rows="10" class="form-control" placeholder="Meddelande"></textarea>
     </div>
-      <button type="submit" ng-Click="sendEmail()">Skicka</button>
+      <button type="submit" class="btn btn-primary">Skicka</button>
   </form>
 </div>
-      <div id="status" class="error" style="text-align: center; margin-top: -8%;">Skickad</div>
+<div class="formation">
+  <!-- <div id="status" class="error" style="text-align: center; margin-top: -8%;">Skickad</div>-->
+   <div class="flex-row flex-column ms-auto contactform">
+     <div class="company"><h3>Conscious Living AB</h3></div>
+     <div class="name"><h3>Linda Garneij</h3></div>
+     <div class="address"><h3>Sveavägen 61</h3></div>
+     <div class="city"><h3>853 56 SUNDSVALL</h3></div>
+     <div class="number"><h3>073-024 03 38</h3></div>
+     <div class="email"><h3>hello@lindagarneij.com</h3></div>
+   </div>
+ </div>
+      </div>
     </section>
-    <script src="https://smtpjs.com/v3/smtp.js">
-    </script>
-
-    <script>
-      function sendEmail() {
-        Email.send({
-            Host : "smtp.elasticemail.com",
-            Username : "username",
-            Password : "password",
-            To : 'them@website.com',
-            From : "you@isp.com",
-            Subject : "This is the subject",
-            Body : "And this is the body"
-        }).then(
-          message => alert(message)
-        )
-    }
-    </script>
-
   </body>
 </html>
+

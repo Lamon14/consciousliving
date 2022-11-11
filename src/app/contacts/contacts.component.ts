@@ -18,18 +18,4 @@ export class ContactsComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
-
-  /* sendEmail() {
-    Email.send({
-      Host: 'smtp.gmail.com',
-      port: 587,
-      secure: false,
-      Username: 'laminsaidy1520@gmail.com',
-      Password: '#19#Combustion79',
-      To: 'laminsaidy1520@gmail.com',
-      From: document.getElementById('email'),
-      Subject: 'This is the subject',
-      Body: 'And this is the body',
-    }).then((message: any) => alert(message));
-  }*/
 }
